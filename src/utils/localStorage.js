@@ -209,19 +209,15 @@ const admin = [{
     "password": "123"
 }];
 
-export const setLocalStorage = () => {
-    //whenever passing any value pass using stringify
-    localStorage.setItem('employees', JSON.stringify(employees))
-    localStorage.setItem('admin', JSON.stringify(admin))
+export const getLocalStorage = () => {
+  const employees = localStorage.getItem("employees")
+  return {
+    employees: employees ? JSON.parse(employees) : []
+  }
 }
 
-export const getLocalStorage = () => {
-    const employees = JSON.parse(localStorage.getItem('employees'))
-    const admin = JSON.parse(localStorage.getItem('admin'))
-
-    return { employees, admin }
-
-
-    //converts the string of json , back to json
-    // console.log(JSON.parse(data));
+export const setLocalStorage = () => {
+  if (!localStorage.getItem("employees")) {
+    localStorage.setItem("employees", JSON.stringify([]))
+  }
 }
