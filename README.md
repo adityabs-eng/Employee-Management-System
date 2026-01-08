@@ -24,6 +24,31 @@ The project demonstrates **React state management, Context API, role-based views
 
 ---
 
+🔐 Demo Login Credentials
+👑 Admin
+
+User ID: admin@example.com
+
+Password: 123
+
+👷 Employees
+
+User IDs:
+
+example1@example.com
+
+example2@example.com
+
+example3@example.com
+
+example4@example.com
+
+example5@example.com
+
+Password (for all employees): 123
+
+ℹ️ These credentials are hardcoded for demo purposes and stored using localStorage.
+
 ## ▶️ Run Locally
 ```bash
 npm install
