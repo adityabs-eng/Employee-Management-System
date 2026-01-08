@@ -1,16 +1,59 @@
-# React + Vite
+# 🧑‍💼 Employee Management System (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **frontend-based Employee Management System (EMS)** built with **React** that manages employees and tasks using a clean, responsive UI.  
+The project demonstrates **React state management, Context API, role-based views, and localStorage persistence**, and is ready for future MERN upgrades.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
+- Admin & Employee dashboards  
+- Task creation, acceptance, and status updates  
+- Role-based UI rendering  
+- Data persistence using localStorage  
+- Responsive design  
+- Frontend-only authentication flow  
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠 Tech Stack
+- React (Vite)
+- JavaScript (ES6)
+- CSS / Tailwind CSS
+- React Context API
+- LocalStorage
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ▶️ Run Locally
+```bash
+npm install
+npm run dev
+🏗 Build
+bash
+Copy code
+npm run build
+
+🌍 Deployment
+Deployed on Vercel using a Vite production build.
+
+🚀 Future Scope
+Backend integration (MERN)
+
+Authentication with JWT
+
+Database persistence
+
+Role-based access control
+
+Author: Aditya Bhushan
+⭐ Star the repo if you like it!
+
+
+---
+
+### ✅ This version is:
+- Single page  
+- Minimal  
+- Recruiter-friendly  
+- Safe for interviews  
+- Easy to paste directly into GitHub  
